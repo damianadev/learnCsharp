@@ -3,6 +3,8 @@
 
 ## Syntax Basics
 
+**C#'s syntax is very similar with JS**
+
 - using System --- System means that I can use classes from "System" namespace.
 - namespace --- Namespace is used to organize code, it creates "containers" for storing classes and other namespaces.
 - class --- class is a container that stores every data and methods, every line that is written in C# needs to be in class.
@@ -10,16 +12,16 @@
 
 - Blank lines are used to organize code and make code more readable.
 - The curly brackets {} are marking the start and the end of a block of code.
-- Every C# statement ends with semicolon ; like in JS.
+- Every C# statement ends with semicolon ; .
 - Every letter in the name of the namespace or class is important, so for example "myclass" and "MyClass" aree different things.
 
 
 ## Outputs
 
-1. 
+1. Console.WriteLine method
 - `Console.WriteLine("Hello World!")` --- This method will output "Hello World!" in a new line.
 
-2. 
+2. Console.Write method
 - `Console.Write("Hello World!");`
 - `Console.Write("I am learning C#");`
 - `Console.Write("I like C#");` --- These methods will output all text in the same line.
@@ -62,6 +64,8 @@ string myText = "Hello";
 | bool   | 1 byte            | Stores true or false values |
 | char   | 2 bytes            | Stores a single character/letter, surrounded by single quotes |
 | string | 2 bytes per char   | Stores a sequence of characters, surrounded by double quotes |
+
+___
 
 **Examples**
 
