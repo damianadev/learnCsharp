@@ -17,6 +17,8 @@
 - Every C# statement ends with semicolon ; .
 - Every letter in the name of the namespace or class is important, so for example "myclass" and "MyClass" aree different things.
 
+___
+
 
 ## Outputs
 
@@ -28,6 +30,8 @@
 - `Console.Write("I am learning C#");`
 - `Console.Write("I like C#");` --- These methods will output all text in the same line.
 
+___
+
 
 ## Variables 
 
@@ -37,13 +41,10 @@
 - string    ---      stores text, such as "Hello World". String values are surrounded by double quotes
 - bool      ---      stores values with two states: true or false
 
-___
 
 **How to create variables?**
 
 `type variableName = value;`
-
-___
 
 **Examples**
 
@@ -55,14 +56,13 @@ bool myBool = true;
 string myText = "Hello";
 ```
 
-___
-
 **Constants**
 
 ```
 const int myNum = 15;
 myNum = 20; // error
 ```
+___
 
 
 ## Data Types
@@ -76,8 +76,6 @@ myNum = 20; // error
 | bool   | 1 byte            | Stores true or false values |
 | char   | 2 bytes            | Stores a single character/letter, surrounded by single quotes |
 | string | 2 bytes per char   | Stores a sequence of characters, surrounded by double quotes |
-
-___
 
 **Examples**
 
@@ -95,11 +93,14 @@ Console.WriteLine(isFishTasty);   // Outputs False
 char myGrade = 'B';
 string greeting = "Hello World";
 ```
+___
 
 
 ## Operators
 
 **Operators are used to perform operations on variables and values.**
+
+___
 
 
 ### Arithmetic Operators
@@ -114,8 +115,6 @@ string greeting = "Hello World";
 | `++`     | Increment      | Increases the value of a variable by 1 | `x++` |
 | `--`     | Decrement      | Decreases the value of a variable by 1 | `x--` |
 
-___
-
 **Examples**
 
 ```
@@ -123,6 +122,7 @@ int sum1 = 100 + 50;        // 150 (100 + 50)
 int sum2 = sum1 + 250;      // 400 (150 + 250)
 int sum3 = sum2 + sum2;     // 800 (400 + 400)
 ```
+___
 
 
 ### Assigment Operators
@@ -141,14 +141,13 @@ int sum3 = sum2 + sum2;     // 800 (400 + 400)
 | `>>=`    | `x >>= 3` | `x = x >> 3` |
 | `<<=`    | `x <<= 3` | `x = x << 3` |
 
-___
-
 **Examples**
 
 ```
 int x = 10;
 x += 5;     // Answer x = 15
 ```
+___
 
 
 ### Comparison Operators
@@ -162,8 +161,6 @@ x += 5;     // Answer x = 15
 | `>=`     | Greater than or equal to | `x >= y` |
 | `<=`     | Less than or equal to    | `x <= y` |
 
-___
-
 **Examples**
 
 ```
@@ -171,6 +168,7 @@ int x = 5;
 int y = 3;
 Console.WriteLine(x > y); // returns True because 5 is greater than 3
 ```
+___
 
 
 ### Logical Operators
@@ -181,8 +179,6 @@ Console.WriteLine(x > y); // returns True because 5 is greater than 3
 | `||`     | Logical or  | Returns True if one of the statements is true           | `x < 5 || x < 4` |
 | `!`      | Logical not | Reverse the result, returns False if the result is true | `!(x < 5 && x < 10)` |
 
-___
-
 **Examples**
 
 ```
@@ -190,3 +186,5 @@ Console.WriteLine(x < 10 && y > 5); // True
 Console.WriteLine(x > 10 || y > 5); // True 
 Console.WriteLine(!(x < 10)); // False
 ```
+___
+
