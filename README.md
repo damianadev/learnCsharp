@@ -1,5 +1,6 @@
-# This is a tutorial for C#, I will write here what I learned so far in C#
+# C# Basics
 
+***https://www.drawio.com/*** --- Use this website to draw data schemas before write them.
 
 ## Syntax Basics
 
@@ -41,6 +42,7 @@ ___
 
 `type variableName = value;`
 
+___
 
 **Examples**
 
@@ -50,6 +52,15 @@ double myDoubleNum = 5.99D;
 char myLetter = 'D';
 bool myBool = true;
 string myText = "Hello";
+```
+
+___
+
+**Constants**
+
+```
+const int myNum = 15;
+myNum = 20; // error
 ```
 
 
@@ -82,4 +93,99 @@ Console.WriteLine(isFishTasty);   // Outputs False
 
 char myGrade = 'B';
 string greeting = "Hello World";
+```
+
+
+## Operators
+
+**Operators are used to perform operations on variables and values.**
+
+
+### Arithmetic Operators
+
+| Operator | Name           | Description                     | Example |
+|----------|----------------|---------------------------------|---------|
+| `+`      | Addition       | Adds together two values        | `x + y` |
+| `-`      | Subtraction    | Subtracts one value from another| `x - y` |
+| `*`      | Multiplication | Multiplies two values           | `x * y` |
+| `/`      | Division       | Divides one value by another    | `x / y` |
+| `%`      | Modulus        | Returns the division remainder  | `x % y` |
+| `++`     | Increment      | Increases the value of a variable by 1 | `x++` |
+| `--`     | Decrement      | Decreases the value of a variable by 1 | `x--` |
+
+___
+
+**Examples**
+
+```
+int sum1 = 100 + 50;        // 150 (100 + 50)
+int sum2 = sum1 + 250;      // 400 (150 + 250)
+int sum3 = sum2 + sum2;     // 800 (400 + 400)
+```
+
+
+### Assigment Operators
+
+| Operator | Example | Same As |
+| :------- | :------ | :------ |
+| `=`      | `x = 5`   | `x = 5`      |
+| `+=`     | `x += 3`  | `x = x + 3`  |
+| `-=`     | `x -= 3`  | `x = x - 3`  |
+| `*=`     | `x *= 3`  | `x = x * 3`  |
+| `/=`     | `x /= 3`  | `x = x / 3`  |
+| `%=`     | `x %= 3`  | `x = x % 3`  |
+| `&=`     | `x &= 3`  | `x = x & 3`  |
+| `|=`     | `x |= 3`  | `x = x | 3`  |
+| `^=`     | `x ^= 3`  | `x = x ^ 3`  |
+| `>>=`    | `x >>= 3` | `x = x >> 3` |
+| `<<=`    | `x <<= 3` | `x = x << 3` |
+
+___
+
+**Examples**
+
+```
+int x = 10;
+x += 5;     // Answer x = 15
+```
+
+
+### Comparison Operators
+
+| Operator | Name                     | Example |
+| :------- | :----------------------- | :------ |
+| `==`     | Equal to                 | `x == y` |
+| `!=`     | Not equal                | `x != y` |
+| `>`      | Greater than             | `x > y` |
+| `<`      | Less than                | `x < y` |
+| `>=`     | Greater than or equal to | `x >= y` |
+| `<=`     | Less than or equal to    | `x <= y` |
+
+___
+
+**Examples**
+
+```
+int x = 5;
+int y = 3;
+Console.WriteLine(x > y); // returns True because 5 is greater than 3
+```
+
+
+### Logical Operators
+
+| Operator | Name        | Description                                             | Example |
+| :------- | :---------- | :------------------------------------------------------ | :------ |
+| `&&`     | Logical and | Returns True if both statements are true                | `x < 5 && x < 10` |
+| `||`     | Logical or  | Returns True if one of the statements is true           | `x < 5 || x < 4` |
+| `!`      | Logical not | Reverse the result, returns False if the result is true | `!(x < 5 && x < 10)` |
+
+___
+
+**Examples**
+
+```
+Console.WriteLine(x < 10 && y > 5); // True 
+Console.WriteLine(x > 10 || y > 5); // True 
+Console.WriteLine(!(x < 10)); // False
 ```
