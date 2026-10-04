@@ -17,8 +17,6 @@
 - Every C# statement ends with semicolon ; .
 - Every letter in the name of the namespace or class is important, so for example "myclass" and "MyClass" aree different things.
 
-___
-
 
 ## Outputs
 
@@ -29,8 +27,6 @@ ___
 - `Console.Write("Hello World!");`
 - `Console.Write("I am learning C#");`
 - `Console.Write("I like C#");` --- These methods will output all text in the same line.
-
-___
 
 
 ## Variables 
@@ -62,7 +58,6 @@ string myText = "Hello";
 const int myNum = 15;
 myNum = 20; // error
 ```
-___
 
 
 ## Data Types
@@ -93,14 +88,11 @@ Console.WriteLine(isFishTasty);   // Outputs False
 char myGrade = 'B';
 string greeting = "Hello World";
 ```
-___
 
 
 ## Operators
 
 **Operators are used to perform operations on variables and values.**
-
-___
 
 
 ### Arithmetic Operators
