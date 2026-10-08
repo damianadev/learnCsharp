@@ -168,7 +168,7 @@ ___
 | Operator | Name        | Description                                             | Example |
 | :------- | :---------- | :------------------------------------------------------ | :------ |
 | `&&`     | Logical and | Returns True if both statements are true                | `x < 5 && x < 10` |
-| `||`     | Logical or  | Returns True if one of the statements is true           | `x < 5 || x < 4` |
+| `II`     | Logical or  | Returns True if one of the statements is true           | `x < 5 II x < 4` |
 | `!`      | Logical not | Reverse the result, returns False if the result is true | `!(x < 5 && x < 10)` |
 
 **Examples**
@@ -178,5 +178,92 @@ Console.WriteLine(x < 10 && y > 5); // True
 Console.WriteLine(x > 10 || y > 5); // True 
 Console.WriteLine(!(x < 10)); // False
 ```
+
+
+## Functions
+
+
+### if & else if & else syntax
+
+```
+if( first_condition )
+{
+    // What happens when first_condition is true?
+} 
+else if ( second_condition )
+{
+    // What happens when second_condition is true?
+}
+else
+{
+    // What happens if first and second conditions are false?
+}
+```
+
+
+### while loop & do/while loop syntax
+
+**while loop**
+
+```
+while (condition) 
+{
+  // code block to be executed
+}
+```
+
 ___
 
+**do/while loop**
+
+```
+do 
+{
+  // code block to be executed
+}
+while (condition);
+```
+
+
+### Break & Continue
+
+**Break**
+
+The `break` statement terminates the loop when a specified condition occurs.
+
+**Example in while loop**
+
+```
+int i = 0;
+while (i < 10) 
+{
+  Console.WriteLine(i);
+  i++;
+  if (i == 4) 
+  {
+    break;
+  }
+}
+```
+
+___
+
+**Continue**
+
+The `continue` statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
+
+**Example in while loop**
+
+```
+int i = 0;
+while (i < 10) 
+{
+  if (i == 4) 
+  {
+    i++;
+    continue;
+  }
+  Console.WriteLine(i);
+  i++;
+}
+```
