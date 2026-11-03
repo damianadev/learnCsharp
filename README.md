@@ -276,7 +276,7 @@ while (i < 5);
 
 ___
 
-## for loop & foreach loop
+### for loop & foreach loop
 
 **for loop**
 
