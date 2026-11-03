@@ -3,6 +3,10 @@
 ***https://www.drawio.com/*** --- Use this website to draw data schemas before write them.
 
 
+# Foundational Skills
+
+**Foundational skills for getting started with C#**
+
 ## Syntax Basics
 
 **C#'s syntax is very similar with JS**
@@ -225,9 +229,9 @@ while (condition);
 ```
 
 
-### Break & Continue
+### break & continue
 
-**Break**
+**break**
 
 The `break` statement terminates the loop when a specified condition occurs.
 
@@ -248,7 +252,7 @@ while (i < 10)
 
 ___
 
-**Continue**
+**continue**
 
 The `continue` statement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.
 
@@ -268,6 +272,10 @@ while (i < 10)
 }
 ```
 
+
+# Advanced Skills
+
+**Advanced Skills in writing more complex code**
 
 ## EnityFramework Core
 
