@@ -23,7 +23,7 @@
   - [ORM (Object-Relational Mapping)](#orm-object-relational-mapping)
   - [LINQ](#linq)
   - [MediatR](#mediatr)
-- [Coming soon](#coming-soon-1)
+- [Coming soon...](#coming-soon)
   - [Migrations](#migrations)
   - [CRUD](#crud)
   - [HTTP Methods (GET, POST, PUT, PATCH, DELETE)](#http-methods-get-post-put-patch-delete)
