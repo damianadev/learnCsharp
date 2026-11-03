@@ -35,11 +35,11 @@
 
 ## Variables 
 
-- int       ---      stores integers (whole numbers), without decimals, such as 123 or -123
-- double    ---      stores floating point numbers, with decimals, such as 19.99 or -19.99
-- char      ---      stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
-- string    ---      stores text, such as "Hello World". String values are surrounded by double quotes
-- bool      ---      stores values with two states: true or false
+- int       ---      stores integers (whole numbers), without decimals, such as 123 or -123.
+- double    ---      stores floating point numbers, with decimals, such as 19.99 or -19.99.
+- char      ---      stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes.
+- string    ---      stores text, such as "Hello World". String values are surrounded by double quotes.
+- bool      ---      stores values with two states: true or false.
 
 
 **How to create variables?**
@@ -56,11 +56,45 @@ bool myBool = true;
 string myText = "Hello";
 ```
 
-**Constants**
+- data stored in variables can be changed.
+
+___
+
+**Const**
+
+- const --- stores data that can not be changed.
+
+**Example**
 
 ```
 const int myNum = 15;
 myNum = 20; // error
+Console.Write(myNum); // output is 15
+```
+
+___
+
+**Var**
+
+- var --- automatically determine the data type of a local variable based on its assigned value.
+
+**Example**
+
+```
+var age = 20;        // int
+var name = "Damian"; // string
+var price = 9.99;    // double
+```
+
+- type of automatically determined data stored in var can not be changed.
+
+**Example**
+
+```
+var age = 20;
+
+age = 25;      // OK
+age = "Hello"; // Error
 ```
 
 
@@ -367,7 +401,49 @@ while (i < 10)
 
 **Advanced Skills in writing more complex code**
 
-## EnityFramework Core
+## EF Core (Enity Framework Core)
+
+- Entity Framework Core (EF Core) is an ORM (Object-Relational Mapper) for .NET that allows developers to interact with relational databases using C# code instead of writing SQL queries manually.
+- In simple terms, EF Core connects C# objects and classes to database tables.
+
+**For example**
+- C# Class --- Database Table
+- C# Object --- Database Row
+- C# Property --- Database Column
+
+**Examples**
+
+```
+public class Customer
+{
+    public int Id { get; set; }
+    public string Name { get; set; }
+    public string Email { get; set; }
+}
+```
+- EF Core can use this class to create a Customers table in the database.
+
+
+## ORM (Object-Relational Mapper)
+
+- ORM (Object-Relational Mapping) is a programming technique that allows developers to work with relational databases using objects and classes instead of writing SQL queries manually.
+
+**For example, instead of writing SQL:**
+
+```
+SELECT * FROM Customers;
+```
+
+**You can use C#:**
+
+```
+var customers = await _context.Customers.ToListAsync();
+```
+
+- EF Core translates supported LINQ queries into SQL automatically.
+
+
+## LINQ
 
 
 ## MediatR
