@@ -118,8 +118,8 @@ int sum1 = 100 + 50;        // 150 (100 + 50)
 int sum2 = sum1 + 250;      // 400 (150 + 250)
 int sum3 = sum2 + sum2;     // 800 (400 + 400)
 ```
-___
 
+___
 
 ### Assigment Operators
 
@@ -143,8 +143,8 @@ ___
 int x = 10;
 x += 5;     // Answer x = 15
 ```
-___
 
+___
 
 ### Comparison Operators
 
@@ -164,8 +164,8 @@ int x = 5;
 int y = 3;
 Console.WriteLine(x > y); // returns True because 5 is greater than 3
 ```
-___
 
+___
 
 ### Logical Operators
 
@@ -184,10 +184,12 @@ Console.WriteLine(!(x < 10)); // False
 ```
 
 
-## Functions
+## Functions & Loops
 
 
 ### if & else if & else syntax
+
+**if & else if & else**
 
 ```
 if( first_condition )
@@ -204,6 +206,27 @@ else
 }
 ```
 
+**Example**
+
+```
+int time = 22;
+
+if (time < 10) 
+{
+  Console.WriteLine("Good morning.");
+} 
+else if (time < 20) 
+{
+  Console.WriteLine("Good day.");
+} 
+else 
+{
+  Console.WriteLine("Good evening.");
+}
+// Outputs "Good evening."
+```
+
+___
 
 ### while loop & do/while loop syntax
 
@@ -213,6 +236,17 @@ else
 while (condition) 
 {
   // code block to be executed
+}
+```
+
+**Example**
+
+```
+int i = 0;
+while (i < 5) 
+{
+  Console.WriteLine(i);
+  i++;
 }
 ```
 
@@ -228,6 +262,62 @@ do
 while (condition);
 ```
 
+**Example**
+
+```
+int i = 0;
+do 
+{
+  Console.WriteLine(i);
+  i++;
+}
+while (i < 5);
+```
+
+___
+
+## for loop & foreach loop
+
+**for loop**
+
+```
+for (statement 1; statement 2; statement 3) 
+{
+  // code block to be executed
+}
+```
+
+**Example**
+
+```
+for (int i = 0; i < 5; i++) 
+{
+  Console.WriteLine(i);
+}
+```
+
+___
+
+**foreach loop**
+
+```
+foreach (type variableName in arrayName) 
+{
+  // code block to be executed
+}
+```
+
+**Example**
+
+```
+string[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+foreach (string i in cars) 
+{
+  Console.WriteLine(i);
+}
+```
+
+___
 
 ### break & continue
 
