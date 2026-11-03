@@ -1,6 +1,6 @@
 # LearnC#
 
-**!!!WARNING!!! This documentation is not yet finished and may contain mistakes or missing information. !!!WARNING!!!**
+**!!!WARNING This documentation is not yet finished and may contain mistakes or missing information. WARNING!!!**
 
 ## Useful Links
 
