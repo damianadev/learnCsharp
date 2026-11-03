@@ -1,5 +1,7 @@
 # LearnC#
 
+**Created by Damian Adamson**
+
 **!!!WARNING This documentation is not yet finished and may contain mistakes or missing information. WARNING!!!**
 
 ## Useful Links
@@ -761,3 +763,7 @@ Console.WriteLine(string.Join(", ", evenNumbers)); // Output: 2, 4, 6
 ## HTTP Methods (GET, POST, PUT, PATCH, DELETE)
 ## DTO 
 ## Paging (Pagination)
+
+---
+
+© 2026 damianadev. All rights reserved.
