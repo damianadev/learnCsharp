@@ -756,6 +756,8 @@ Console.WriteLine(string.Join(", ", evenNumbers)); // Output: 2, 4, 6
 - CQRS separates operations that change data (commands) from operations that read data (queries).
 - MediatR does not replace EF Core or create a database. It helps organize communication between application components.
 
+---
+
 # Coming Soon...
 
 ## Migrations
