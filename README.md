@@ -4,8 +4,8 @@
 
 ## Useful Links
 
-[draw.io](https://www.drawio.com/) - Use this website to draw data schemas before writing them.
-[Microsoft .NET](https://learn.microsoft.com/en-us/dotnet/) - If you cannot find what you are looking for in my documentation, check the official Microsoft documentation.
+- [draw.io](https://www.drawio.com/) - Use this website to draw data schemas before writing them.
+- [Microsoft .NET](https://learn.microsoft.com/en-us/dotnet/) - If you cannot find what you are looking for in my documentation, check the official Microsoft documentation.
 
 ## Table of Contents
 
