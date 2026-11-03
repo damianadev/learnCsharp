@@ -1,4 +1,4 @@
-# C# Basics
+# LearnC#
 
 ***https://www.drawio.com/*** --- Use this website to draw data schemas before write them.
 
@@ -267,3 +267,9 @@ while (i < 10)
   i++;
 }
 ```
+
+
+## EnityFramework Core
+
+
+## MediatR
