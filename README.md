@@ -1,6 +1,7 @@
 # LearnC#
 
 **Created by Damian Adamson**
+**Last updated 17.11.2026**
 
 **!!!WARNING This documentation is not yet finished and may contain mistakes or missing information. WARNING!!!**
 
@@ -31,6 +32,8 @@
   - [HTTP Methods (GET, POST, PUT, PATCH, DELETE)](#http-methods-get-post-put-patch-delete)
   - [DTO](#dto)
   - [Paging (Pagination)](#paging-pagination)
+  - [HTTP Methods for File Operations](#http-methods-for-file-operations)
+  - [Validation](#validation)
 
 ---
 
@@ -765,6 +768,8 @@ Console.WriteLine(string.Join(", ", evenNumbers)); // Output: 2, 4, 6
 ## HTTP Methods (GET, POST, PUT, PATCH, DELETE)
 ## DTO 
 ## Paging (Pagination)
+## HTTP Methods for File Operations
+## Validation
 
 ---
 
